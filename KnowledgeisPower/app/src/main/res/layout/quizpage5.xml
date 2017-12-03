@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- countdowntimer text field -->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/countdown"
+            />
+        <!-- questions and answers with strings -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/quest5"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/twentyone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/an51"
+            android:onClick="a51"
+
+            />
+
+        <RadioButton
+            android:id="@+id/twentytwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/an52"
+            android:onClick="a52"
+
+            />
+
+        <RadioButton
+            android:id="@+id/twentythree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/an53"
+            android:onClick="a53"
+
+            />
+
+        <RadioButton
+            android:id="@+id/twentyfour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/an54"
+            android:onClick="a54"
+
+            />
+
+        <RadioButton
+            android:id="@+id/twentyfive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/an55"
+            android:onClick="a55"
+
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cont"
+        android:id="@+id/q5cont"
+        android:visibility="invisible"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="q5cont"
+        />
+
+</LinearLayout>
+
+
+
+
+
+</ScrollView>

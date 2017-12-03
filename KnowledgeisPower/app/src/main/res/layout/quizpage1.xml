@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- countdowntimer text field -->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="00"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/countdown"
+            />
+    <!-- questions and answers with strings -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/quest1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:fontFamily="@font/medievalsharp"
+
+            />
+<!-- RadioGroup is needed to make only one button to be checkable at a time -->
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:fontFamily="@font/medievalsharp"
+
+            >
+
+        <RadioButton
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/an11"
+            android:onClick="a11"
+            android:fontFamily="@font/medievalsharp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/an12"
+            android:onClick="a12"
+            android:fontFamily="@font/medievalsharp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/an13"
+            android:onClick="a13"
+            android:fontFamily="@font/medievalsharp"
+
+
+            />
+
+        <RadioButton
+            android:id="@+id/four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/an14"
+            android:onClick="a14"
+            android:fontFamily="@font/medievalsharp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/an15"
+            android:onClick="a15"
+            android:fontFamily="@font/medievalsharp"
+
+            />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cont"
+            android:id="@+id/q1cont"
+            android:visibility="invisible"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:onClick="q1cont"
+            android:fontFamily="@font/medievalsharp"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

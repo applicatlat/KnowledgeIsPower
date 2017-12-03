@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10sp">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="?android:attr/homeAsUpIndicator"
+        android:onClick="geri"/>
+
+    <!-- I mainly used strings due to this quiz's multilingual properties. -->
+    <!-- This one says Hello There -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/intro_text_hello" />
+    <!-- This adds gap -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""/>
+
+    <!-- This one introduces the app -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/intro_text" />
+    <!-- This adds gap -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""/>
+
+    <!-- This one gives what can be achievable through this app -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/intro_text_prop" />
+
+    <!-- This adds gap -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""/>
+
+    <!-- This one gives the final words -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/intro_end_note" />
+
+    <!-- This one makes the reader to go to the next page-->
+
+    <CheckBox
+        android:id = "@+id/checkbox_understood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/understood"
+        android:paddingLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:onClick="checkbox_understood"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/cont"
+        android:id="@+id/contbut"
+        android:onClick="contbut1"
+        android:visibility="invisible"
+        android:layout_marginBottom="16sp"
+        />
+
+</LinearLayout>
+
+
+</ScrollView>

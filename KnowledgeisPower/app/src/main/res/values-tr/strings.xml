@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bilgi Güçtür</string>
+    <string name="intro_text_hello">Merhaba. BG(Bilgi Güçtür) aplikasyonu sizi selamlar!</string>
+    <string name="intro_text">Bu 10 tarih sorusundan oluşan bir test aplikasyonudur.Bu aplikasyon ile: </string>
+    <string name="language">Dil Seçenekleri</string>
+    <string name="understood">Metni anladım ve devam etmek için hazırım.</string>
+    <string name="intro_text_prop">1- Büyük Şeyler</string>
+    <string name="intro_end_note">Not: Bu aplikasyon Levent Alahan Tekinalp tarafından yapılmıştır. Sebebi Udacity öğretmenlerine elinden gelenin en iyisini yaptığını göstermek ve Google bursunun boşa gitmediğini kanıtlamaktır. :) </string>
+    <string name="hintname">Adınızı Girin</string>
+    <string name="email">e-mail@adresinizigirin.com</string>
+    <string name="submit">BAŞLA</string>
+    <string name="namesubmit">İsim: </string>
+    <string name="emailsubmit">E-mail: </string>
+    <string name="cont">DEVAM ET</string>
+    <string name="goback">DİL SEÇENEKLERİ EKRANINA GİT</string>
+    <!-- quizpage1 question1 & answers string -->
+
+    <string name="quest1">1- Dinlemekte olduğunuz eserin ismi ve bestekârı aşağıdakilerden hangisidir?</string>
+    <string name="an11">Peer Gynt - Grieg</string>
+    <string name="an12">Grünberg - Heinrich IX</string>
+    <string name="an13">Greensleeves - Henry VIII</string>
+    <string name="an14">Greensleeves - Yasunori Mitsuda</string>
+    <string name="an15">Hiçbiri</string>
+
+    <!-- quizpage2 question2 string -->
+
+    <string name="quest2">2- Which dynasty ruled Russia just before the Bolshevik Revolution?</string>
+    <string name="an21">Godunov</string>
+    <string name="an22">Romanov</string>
+    <string name="an23">Rurikids</string>
+    <string name="an24">Vasa</string>
+    <string name="an25">Medvedev</string>
+
+    <!-- quizpage3 question3 string -->
+
+    <string name="quest3">3- Which religion did "Zheng He", amiral of the great expedition to Africa, followed?</string>
+    <string name="an31">Budizm</string>
+    <string name="an32">Taoizm</string>
+    <string name="an33">Yahudilik</string>
+    <string name="an34">Hristiyanlık</string>
+    <string name="an35">İslam</string>
+
+    <!-- quizpage4 question4 string -->
+
+    <string name="quest4">"4- Hangi duvar uzaydan izlenebilir veya izlenebilirdi? "</string>
+    <string name="an41">Çin Seddi</string>
+    <string name="an42">Hadriyan Duvarı</string>
+    <string name="an43">Wallmart</string>
+    <string name="an44">Hepsi</string>
+    <string name="an45">Hiçbiri</string>
+    <!-- quizpage4 question5 string -->
+
+    <string name="quest5">5- İlk Haçlı seferi ne zaman tamamlanmıştır?</string>
+    <string name="an51">1095</string>
+    <string name="an52">1096</string>
+    <string name="an53">1097</string>
+    <string name="an54">1098</string>
+    <string name="an55">1099</string>
+
+    <string name="error_submit_name">İsminizi girin</string>
+    <string name="error_submit_email">E-posta adresinizi girin</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="dialogTitle">Dikkat!</string>
+    <string name="language_toast">Türkçe dilini seçtiniz.</string>
+</resources>

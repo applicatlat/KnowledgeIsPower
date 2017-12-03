@@ -1,0 +1,127 @@
+
+<resources>
+    <!-- Application Name -->
+
+    <string name="app_name">Knowledge is Power</string>
+
+    <!-- Intro page, Welcome message -->
+
+    <string name="intro_text_hello">Hello there. KiP(Knowledge is Power) application welcomes you!</string>
+
+    <!-- intro text -->
+
+    <string name="intro_text">This is a quiz app, composed of 10 history questions. With this app you can:</string>
+
+    <!-- intro, things that can be achievable -->
+
+    <string name="intro_text_prop">1- Big things</string>
+
+    <!-- intro, end message -->
+
+    <string name="intro_end_note">P.S.: This application is made by Levent Alahan Tekinalp. On the purpose of showing the Udacity mentors that he is trying his best to prove Google\'s scholarship is not being wasted. :) </string>
+
+    <!-- Language selection first page -->
+
+    <string name="language">Language Selection</string>
+
+    <!-- intro understand the text -->
+
+    <string name="understood">I understood the text and ready to proceed further.</string>
+
+    <!-- submit page edittext hintname-->
+
+    <string name="hintname">Enter Your Name</string>
+
+    <!-- submit page edittext e-mail -->
+
+    <string name="email">enter@youre-mail.com</string>
+
+    <!-- submit page submit button-->
+
+    <string name="submit">SUBMIT</string>
+
+    <!-- submit page submit name-->
+
+    <string name="namesubmit">Name: </string>
+
+    <!-- submit page submit name-->
+
+    <string name="emailsubmit">E-mail: </string>
+
+    <!-- introduction continue button-->
+
+    <string name="cont">CONTINUE</string>
+
+    <!-- submit page go back text view-->
+
+    <string name="goback">GO TO THE LANGUAGE SCREEN</string>
+
+    <!-- language select page string toast -->
+
+    <string name="language_toast">You chose English language</string>
+
+    <!-- quizpage1 question1 & answers string -->
+
+    <string name="quest1">1- What is the name and who is the composer of the song that you have listened on start of the application?</string>
+    <string name="an11">Peer Gynt - Grieg</string>
+    <string name="an12">Grünberg - Heinrich IX</string>
+    <string name="an13">Greensleeves - Henry VIII</string>
+    <string name="an14">Greensleeves - Yasunori Mitsuda</string>
+    <string name="an15">Non</string>
+
+    <!-- quizpage2 question2 string -->
+
+    <string name="quest2">2- Which dynasty ruled Russia just before the Bolshevik Revolution?</string>
+    <string name="an21">Godunov</string>
+    <string name="an22">Romanov</string>
+    <string name="an23">Rurikids</string>
+    <string name="an24">Vasa</string>
+    <string name="an25">Medvedev</string>
+
+    <!-- quizpage3 question3 string -->
+
+    <string name="quest3">3- Which religion did "Zheng He", amiral of the great expedition to Africa, followed?</string>
+    <string name="an31">Buddhism</string>
+    <string name="an32">Taoism</string>
+    <string name="an33">Judaism</string>
+    <string name="an34">Christianity</string>
+    <string name="an35">Islam</string>
+
+    <!-- quizpage4 question4 string -->
+
+    <string name="quest4">4- Which wall can or could be seen from the space?</string>
+    <string name="an41">The Great Wall</string>
+    <string name="an42">The Hadrian Wall</string>
+    <string name="an43">Wallmart</string>
+    <string name="an44">All</string>
+    <string name="an45">Non</string>
+    <!-- quizpage4 question5 string -->
+
+    <string name="quest5">5- When did the first Crusade ended?</string>
+    <string name="an51">1095</string>
+    <string name="an52">1096</string>
+    <string name="an53">1097</string>
+    <string name="an54">1098</string>
+    <string name="an55">1099</string>
+
+    <!-- submit page error messages -->
+
+    <string name="error_submit_name">Enter your name</string>
+    <string name="error_submit_email">Enter your e-mail address</string>
+
+    <!-- submit page dialog box to make em sure -->
+
+    <string name="control">Did you type your Name:"" and E-mail address:"" correct? If so press Yes.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="dialogTitle">Attention!</string>
+
+    <!-- question 1 message for continue -->
+    <string name="answerMes">Once you press yes you will not be able to go back for this session. Are you sure of your answer?</string>
+
+    <!-- result page codes -->
+
+    <string name="answerTitle">Correct Answers</string>
+
+
+</resources>
