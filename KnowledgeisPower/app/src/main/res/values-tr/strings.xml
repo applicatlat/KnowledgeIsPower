@@ -5,7 +5,7 @@
     <string name="intro_text">Bu 10 tarih sorusundan oluşan bir test aplikasyonudur.Bu aplikasyon ile: </string>
     <string name="language">Dil Seçenekleri</string>
     <string name="understood">Metni anladım ve devam etmek için hazırım.</string>
-    <string name="intro_text_prop">1- Büyük Şeyler</string>
+    <string name="intro_text_prop">1- Tarih bilginizi ölçebilir</string>
     <string name="intro_end_note">Not: Bu aplikasyon Levent Alahan Tekinalp tarafından yapılmıştır. Sebebi Udacity öğretmenlerine elinden gelenin en iyisini yaptığını göstermek ve Google bursunun boşa gitmediğini kanıtlamaktır. :) </string>
     <string name="hintname">Adınızı Girin</string>
     <string name="email">e-mail@adresinizigirin.com</string>
@@ -25,7 +25,7 @@
 
     <!-- quizpage2 question2 string -->
 
-    <string name="quest2">2- Which dynasty ruled Russia just before the Bolshevik Revolution?</string>
+    <string name="quest2">2- Bolşevik ihtilalinden evvel Rusya\'yı hangi hanedan yönetiyordu?</string>
     <string name="an21">Godunov</string>
     <string name="an22">Romanov</string>
     <string name="an23">Rurikids</string>
@@ -34,7 +34,7 @@
 
     <!-- quizpage3 question3 string -->
 
-    <string name="quest3">3- Which religion did "Zheng He", amiral of the great expedition to Africa, followed?</string>
+    <string name="quest3">3- Afrika çıkarmasını yapmış Çinli Amiral Cıng Hı (Zheng He) hangi dine mensuptu?</string>
     <string name="an31">Budizm</string>
     <string name="an32">Taoizm</string>
     <string name="an33">Yahudilik</string>
@@ -64,4 +64,12 @@
     <string name="no">Hayır</string>
     <string name="dialogTitle">Dikkat!</string>
     <string name="language_toast">Türkçe dilini seçtiniz.</string>
+    <string name="control">İsminizi ve e-mail adresinizi doğru yazdınız mı?</string>
+    <string name="answerMes">Bir kez Evet\'i tıkladığınızda önceki soruları göremeyeceksiniz. Devam etmek istiyor musunuz?</string>
+    <string name="answerTitle">Doğru Cevaplar</string>
+    <string name="yourScore">Notunuz:</string>
+    <string name="item2">2- Sonucunuzu görebilir</string>
+    <string name="item3">3- Sonucunuzu kendinize gönderebilir</string>
+    <string name="item4">4- Sonucunuzu arkadaşlarınızla paylaşbilir</string>
+    <string name="item5">5- Sonucunuzu cihazınıza kaydedebilirsiniz</string>
 </resources>

@@ -2,6 +2,7 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
@@ -14,16 +15,7 @@
         <!-- countdowntimer text field -->
 
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textSize="30sp"
-            android:text="00"
-            android:textColor="@color/colorPrimaryDark"
-            android:id="@+id/countdown"
-            />
-    <!-- questions and answers with strings -->
+        <!-- questions and answers with strings -->
 
         <TextView
             android:layout_width="match_parent"
@@ -42,7 +34,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:fontFamily="@font/medievalsharp"
-
             >
 
         <RadioButton
@@ -53,19 +44,16 @@
             android:text="@string/an11"
             android:onClick="a11"
             android:fontFamily="@font/medievalsharp"
-
             />
 
-        <RadioButton
-            android:id="@+id/two"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
-            android:text="@string/an12"
-            android:onClick="a12"
-            android:fontFamily="@font/medievalsharp"
-
-            />
+            <RadioButton
+                android:id="@+id/two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/medievalsharp"
+                android:onClick="a12"
+                android:text="@string/an12" />
 
         <RadioButton
             android:id="@+id/three"
@@ -75,8 +63,6 @@
             android:text="@string/an13"
             android:onClick="a13"
             android:fontFamily="@font/medievalsharp"
-
-
             />
 
         <RadioButton
@@ -98,7 +84,6 @@
             android:text="@string/an15"
             android:onClick="a15"
             android:fontFamily="@font/medievalsharp"
-
             />
 
         </RadioGroup>
@@ -113,7 +98,6 @@
             android:layout_marginBottom="20dp"
             android:onClick="q1cont"
             android:fontFamily="@font/medievalsharp"
-
             />
 
     </LinearLayout>

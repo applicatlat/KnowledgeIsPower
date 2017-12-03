@@ -1,28 +1,16 @@
 package com.example.android.knowledgeispower;
 
-import android.app.ActionBar;
 import android.app.AlertDialog;
-import android.content.Context;
+import android.app.Application;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
-import android.content.res.Resources;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
-import android.media.MediaActionSound;
 import android.media.MediaPlayer;
-import android.media.session.MediaSession;
-import android.net.Uri;
-import android.os.CountDownTimer;
 import android.preference.PreferenceManager;
-import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -32,16 +20,23 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.w3c.dom.Text;
-
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
+    public String sUsername;
+    public String sEmail;
 
     //In order to use the mediaPlayer object I created a static one i looked the explanation from the stackflow.
 
     public static MediaPlayer mediaPlayer;
+
+    //If no score points added the score will be 0
+
+    int score;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
         mediaPlayer = MediaPlayer.create(this, R.raw.greensleeves);
         mediaPlayer.start();
+
 
 
     }
@@ -157,6 +153,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+
     public void a12(View view) {
         Button contans1 = (Button) findViewById(R.id.q1cont);
         if (((RadioButton) view).isChecked()) {
@@ -176,6 +173,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+
     public void a14(View view) {
         Button contans1 = (Button) findViewById(R.id.q1cont);
         if (((RadioButton) view).isChecked()) {
@@ -192,8 +190,10 @@ public class MainActivity extends AppCompatActivity {
             contans1.setVisibility(View.VISIBLE);
         } else {
             contans1.setVisibility(View.INVISIBLE);
-
         }
+        // score + 20 will add to the 0 score because this is the correct answer
+
+      score = score + 20;
     }
 
     //radio button 2-5
@@ -206,6 +206,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+
     public void a22(View view) {
         Button contans1 = (Button) findViewById(R.id.q2cont);
         if (((RadioButton) view).isChecked()) {
@@ -214,6 +215,9 @@ public class MainActivity extends AppCompatActivity {
             contans1.setVisibility(View.INVISIBLE);
 
         }
+        //correct answer
+   score = score + 20;
+
     }
 
     public void a23(View view) {
@@ -225,6 +229,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+
     public void a24(View view) {
         Button contans1 = (Button) findViewById(R.id.q2cont);
         if (((RadioButton) view).isChecked()) {
@@ -256,6 +261,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+
     public void a32(View view) {
         Button contans1 = (Button) findViewById(R.id.q3cont);
         if (((RadioButton) view).isChecked()) {
@@ -275,6 +281,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+
     public void a34(View view) {
         Button contans1 = (Button) findViewById(R.id.q3cont);
         if (((RadioButton) view).isChecked()) {
@@ -293,6 +300,8 @@ public class MainActivity extends AppCompatActivity {
             contans1.setVisibility(View.INVISIBLE);
 
         }
+     score = score + 20;
+
     }
 
     //radio button 4-5
@@ -306,6 +315,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+
     public void a42(View view) {
         Button contans1 = (Button) findViewById(R.id.q4cont);
         if (((RadioButton) view).isChecked()) {
@@ -325,6 +335,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+
     public void a44(View view) {
         Button contans1 = (Button) findViewById(R.id.q4cont);
         if (((RadioButton) view).isChecked()) {
@@ -333,6 +344,9 @@ public class MainActivity extends AppCompatActivity {
             contans1.setVisibility(View.INVISIBLE);
 
         }
+        // 4-5 both correct
+      score = score + 20;
+
     }
 
     public void a45(View view) {
@@ -343,6 +357,9 @@ public class MainActivity extends AppCompatActivity {
             contans1.setVisibility(View.INVISIBLE);
 
         }
+        //4-5 both correct
+       score = score + 20;
+
     }
     //radio button 5-5
 
@@ -355,6 +372,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+
     public void a52(View view) {
         Button contans1 = (Button) findViewById(R.id.q5cont);
         if (((RadioButton) view).isChecked()) {
@@ -374,6 +392,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+
     public void a54(View view) {
         Button contans1 = (Button) findViewById(R.id.q5cont);
         if (((RadioButton) view).isChecked()) {
@@ -392,12 +411,16 @@ public class MainActivity extends AppCompatActivity {
             contans1.setVisibility(View.INVISIBLE);
 
         }
+        //correct answer
+     score = score + 20;
+
     }
+
     // on click it will make save the answer convert it to int and add to score
     // it will ask if you are sure of the answer
     // it will open the next page
     // question 1 contine button
-    public void q1cont(View view){
+    public void q1cont(View view) {
         String dialogBoxTitle = getResources().getString(R.string.dialogTitle);
         String yes = getResources().getString(R.string.yes);
         String no = getResources().getString(R.string.no);
@@ -429,7 +452,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // question 2 continue button
-    public void q2cont(View view){
+    public void q2cont(View view) {
         String dialogBoxTitle = getResources().getString(R.string.dialogTitle);
         String yes = getResources().getString(R.string.yes);
         String no = getResources().getString(R.string.no);
@@ -462,7 +485,7 @@ public class MainActivity extends AppCompatActivity {
 
     // question 3 continue button
 
-    public void q3cont(View view){
+    public void q3cont(View view) {
         String dialogBoxTitle = getResources().getString(R.string.dialogTitle);
         String yes = getResources().getString(R.string.yes);
         String no = getResources().getString(R.string.no);
@@ -495,7 +518,7 @@ public class MainActivity extends AppCompatActivity {
 
     // question 4 continue button
 
-    public void q4cont(View view){
+    public void q4cont(View view) {
         String dialogBoxTitle = getResources().getString(R.string.dialogTitle);
         String yes = getResources().getString(R.string.yes);
         String no = getResources().getString(R.string.no);
@@ -528,7 +551,7 @@ public class MainActivity extends AppCompatActivity {
 
     // question 5 continue button
 
-    public void q5cont(View view){
+    public void q5cont(View view) {
         String dialogBoxTitle = getResources().getString(R.string.dialogTitle);
         String yes = getResources().getString(R.string.yes);
         String no = getResources().getString(R.string.no);
@@ -548,7 +571,15 @@ public class MainActivity extends AppCompatActivity {
                 .setPositiveButton(yes, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        setContentView(R.layout.resultpage);
+
+                        //The score from the quiz is transferred to Resultpage.java with this intent
+                        Intent intent = new Intent(MainActivity.this, ResultPage.class);
+                        intent.putExtra("score",score);
+                        intent.putExtra("sUsername",sUsername);
+                        intent.putExtra("sEmail",sEmail);
+
+                        startActivity(intent);
+
 
                     }
                 });
@@ -576,8 +607,10 @@ public class MainActivity extends AppCompatActivity {
     //3- İsim ve e-mail kısımlarına yazılan yazıları result page e aktarsın
 
     public void submit(View view) {
+
         EditText submitName = (EditText) findViewById(R.id.editname); //submitpage name section edittext data
         String sUsername = submitName.getText().toString();             //gets the edittext data
+
         String nameError = getResources().getString(R.string.error_submit_name); //string from the string.xml error name down email
 
         if (sUsername.matches("")) {
@@ -591,8 +624,9 @@ public class MainActivity extends AppCompatActivity {
 
         if (sEmail.matches("")) {
             Toast.makeText(this, emailError, Toast.LENGTH_SHORT).show();
-
+            return;
         }
+
         String control = getResources().getString(R.string.control);
         String yes = getResources().getString(R.string.yes);
         String no = getResources().getString(R.string.no);
@@ -628,12 +662,15 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
     //Question 1, 5 answer - yapılması gerekenler: 1-Herhangi
 
 // Result page codes
 
+    //Displays the score in the result page
+
+
+
 
 }
-
-
 

@@ -14,7 +14,14 @@
 
     <!-- intro, things that can be achievable -->
 
-    <string name="intro_text_prop">1- Big things</string>
+    <string name="intro_text_prop">1- Measure your history knowledge</string>
+    <string name="item2">2- See your result</string>
+    <string name="item3">3- Send your result to yourself</string>
+    <string name="item4">4- Share your result with your friends</string>
+    <string name="item5">5- Save your results to your device</string>
+
+
+
 
     <!-- intro, end message -->
 
@@ -122,6 +129,7 @@
     <!-- result page codes -->
 
     <string name="answerTitle">Correct Answers</string>
+    <string name="yourScore">Your Score:</string>
 
 
 </resources>

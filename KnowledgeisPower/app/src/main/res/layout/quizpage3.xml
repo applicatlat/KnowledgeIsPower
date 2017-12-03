@@ -14,15 +14,6 @@
         <!-- countdowntimer text field -->
 
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textSize="30sp"
-            android:text=""
-            android:textColor="@color/colorPrimaryDark"
-            android:id="@+id/countdown"
-            />
         <!-- questions and answers with strings -->
 
         <TextView

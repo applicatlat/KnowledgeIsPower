@@ -16,6 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="?android:attr/homeAsUpIndicator"
+        android:layout_marginTop="10dp"
         android:onClick="geri"/>
 
     <!-- I mainly used strings due to this quiz's multilingual properties. -->
@@ -24,6 +25,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
         android:text="@string/intro_text_hello" />
     <!-- This adds gap -->
 
@@ -36,7 +38,8 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content
+"
         android:text="@string/intro_text" />
     <!-- This adds gap -->
 
@@ -49,7 +52,7 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="@string/intro_text_prop" />
 
     <!-- This adds gap -->
@@ -59,12 +62,73 @@
         android:layout_height="match_parent"
         android:text=""/>
 
+    <!-- item 2 of the intro-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item2" />
+
+    <!-- This adds gap -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""/>
+
+    <!-- item 3 of the intro-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item3" />
+
+    <!-- This adds gap -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""/>
+
+    <!-- item 4 of the intro-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item4" />
+
+    <!-- This adds gap -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""/>
+
+    <!-- item 5 of the intro-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item5" />
+
+    <!-- This adds gap -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+
+
+
     <!-- This one gives the final words -->
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/intro_end_note" />
+        android:text="@string/intro_end_note"
+        android:layout_marginBottom="15dp"
+        />
 
     <!-- This one makes the reader to go to the next page-->
 
