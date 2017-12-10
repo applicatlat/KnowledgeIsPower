@@ -6,13 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
+    android:background="@drawable/paper"
+    android:padding="50dp"
+
     >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        >
 
-        <!-- countdowntimer text field -->
+
 
 
         <!-- questions and answers with strings -->
@@ -20,12 +24,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="30dp"
             android:layout_marginTop="15dp"
             android:text="@string/quest1"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="15sp"
             android:fontFamily="@font/medievalsharp"
+            android:textStyle="bold"
+            android:textSize="15sp"
 
             />
 <!-- RadioGroup is needed to make only one button to be checkable at a time -->
@@ -37,53 +42,64 @@
             >
 
         <RadioButton
-            android:id="@+id/one"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
             android:text="@string/an11"
             android:onClick="a11"
             android:fontFamily="@font/medievalsharp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:id="@+id/answer1"
+
             />
 
             <RadioButton
-                android:id="@+id/two"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp"
                 android:fontFamily="@font/medievalsharp"
-                android:onClick="a12"
-                android:text="@string/an12" />
+                android:onClick="a11"
+                android:text="@string/an12"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/answer2"
+                />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/medievalsharp"
+                android:onClick="a11"
+                android:text="@string/an13"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:id="@+id/answer3"
+                />
 
         <RadioButton
-            android:id="@+id/three"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
-            android:text="@string/an13"
-            android:onClick="a13"
-            android:fontFamily="@font/medievalsharp"
-            />
-
-        <RadioButton
-            android:id="@+id/four"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
             android:text="@string/an14"
-            android:onClick="a14"
+            android:onClick="a11"
             android:fontFamily="@font/medievalsharp"
-
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:id="@+id/answer4"
             />
 
         <RadioButton
-            android:id="@+id/five"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
             android:text="@string/an15"
-            android:onClick="a15"
+            android:onClick="a11"
             android:fontFamily="@font/medievalsharp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:id="@+id/answer5"
             />
 
         </RadioGroup>
@@ -98,11 +114,10 @@
             android:layout_marginBottom="20dp"
             android:onClick="q1cont"
             android:fontFamily="@font/medievalsharp"
+            android:textStyle="bold"
             />
 
     </LinearLayout>
-
-
 
 
 </ScrollView>

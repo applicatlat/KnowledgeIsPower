@@ -10,7 +10,7 @@
 
     <!-- intro text -->
 
-    <string name="intro_text">This is a quiz app, composed of 10 history questions. With this app you can:</string>
+    <string name="intro_text">This is a quiz app, composed of 5 history questions. With this app you can:</string>
 
     <!-- intro, things that can be achievable -->
 
@@ -29,8 +29,6 @@
 
     <!-- Language selection first page -->
 
-    <string name="language">Language Selection</string>
-
     <!-- intro understand the text -->
 
     <string name="understood">I understood the text and ready to proceed further.</string>
@@ -38,6 +36,8 @@
     <!-- submit page edittext hintname-->
 
     <string name="hintname">Enter Your Name</string>
+    <string name="saved">Your information is saved</string>
+    <string name="save">SAVE</string>
 
     <!-- submit page edittext e-mail -->
 
@@ -130,6 +130,62 @@
 
     <string name="answerTitle">Correct Answers</string>
     <string name="yourScore">Your Score:</string>
+    <string name="yourAnswer">Your Answer is:</string>
+    <string name="send1">Send Result</string>
+    <string name="Correct">Correct :</string>
+    <string name="False">False :</string>
+    <string name="explain1">Henry VII loved entertainers, and the court attracted acrobats, jesters,
+        magicians and musicians. Prince Henry enjoyed music and grew up to be an accomplished musician
+        (although he did not write "Greensleeves," as legend suggests). At the age of 10 he could play
+        many instruments, including the fife, harp, viola and drums.
+        \n \n Source: \nhttp://www.tudorplace.com.ar/aboutHenryVIII.htm </string>
+    <string name="explain2">The Romanov Dynasty also known as “The House of Romanov” was the second
+        imperial dynasty (after the Rurik dynasty) to rule Russia. The Romanov family reigned from
+        1613 until the abdication of Tsar Nicholas II on March 15, 1917, as a result of the Russian Revolution.
+        \n \n Source: \nhttp://www.theromanovfamily.com/the-romanov-dynasty-a-history/</string>
+    <string name="explain3">Among the tremendous events narrated by the ceremony was the evokation
+        of Zheng He, the Chinese Muslim admiral of the 15th century. Blue-robed oarsman enacted
+        seafarers travelling between Southeast Asia and the coast of Fujian, in southern China.
+        Their oars became sails, painted with the "treasure ships" of Zheng He who reached Africa
+        in the Ming Dynasty.  \n \n Source: \nhttp://www.muslimheritage.com/article/zheng-he-chinese-muslim-admiral</string>
+    <string name="explain4">One popular myth about space exploration is that the Great Wall of China
+        is the only human-built structure that can be seen from space. But this is not true.
+        The reality is that you can’t easily see the Great Wall with the unaided eye, even from low
+        Earth orbit. And certainly, the Apollo astronauts couldn’t see it from the Moon, even though
+        that urban legend has been widely circulated.  \n \n Source: \nhttps://www.universetoday.com/25364/can-you-see-the-great-wall-of-china-from-space/</string>
+    <string name="explain5">The crusaders first gathered in Constantinople in fall 1096. They besieged
+        Nicaea while Kilij Arslan was away (the city surrendered to Alexius), and later defeated an
+        army commanded by Kilij Arslan at Dorlyaeum. On their progress to Jerusalem the crusaders
+        (or a faction of them) also seized Edessa (which became the first Latin settlement) and Antioch.
+        After Antioch, the crusaders waited out the summer heat and disorder from Adhémar\'s death.
+        Eventually, the rank and file soldiers forced the crusade to continue. After unsuccessfully
+        besieging Arqah for three months, the crusaders continued to Jerusalem which they seized on
+        July 15, 1099. The Christian armies defended their conquest in August 1099 by defeating an
+        Egyptian relief army. Pope Urban II died on July 29, 1099, without hearing the news.\n \n Source: \n http://www.umich.edu/~marcons/Crusades/timeline/summaries/First_Crusade.htm</string>
+    <string name="explain">EXPLANATION:</string>
+    <string name="emailSubject">Knowledge is Power Application Quiz Result</string>
+    <string name="durum">EMPTY</string>
+    <string name="firstPage">GO HOME</string>
+    <string name="date">Date and Time</string>
+    <string name="share">SHARE</string>
+    <string name="choose1">Choose What to Share:</string>
+    <string name="shareAll">DEFAULT</string>
+    <string name="correctOnes">Correct Ones</string>
+    <string name="emailCheck">Email Address</string>
+    <string name="scoreResult">Quiz Result</string>
+    <string name="goBackMes">You are leaving for the language selection screen. Are you sure?</string>
+    <string name="chooseDude">You need to choose at least one item to share.</string>
+    <string name="OK">O.K.</string>
 
+
+    <!--firstpage codes-->
+    <string name="flag1">American Flag</string>
+    <string name="flag2">Turkish Flag</string>
+    <string name="upset">Confused dude</string>
+    <!--SPLASH codes-->
+
+    <string name="alphaK">Letter K</string>
+    <string name="letterI">Letter I</string>
+    <string name="endP">Letter P</string>
 
 </resources>

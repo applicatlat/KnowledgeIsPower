@@ -4,19 +4,16 @@
 <!-- Menu item for pausing music-->
 
     <item
-        android:id="@+id/action_play"
         android:icon="@android:drawable/ic_media_play"
         android:onClick="play"
         android:title="play"
         app:showAsAction="always" />
     <item
-        android:id="@+id/action_pause"
         android:icon="@android:drawable/ic_media_pause"
         android:title="pause"
         android:onClick="pause"
         app:showAsAction="always" />
     <item
-        android:id="@+id/action_stop"
         android:icon="@drawable/stop"
         android:title="stop"
         android:onClick="stop"

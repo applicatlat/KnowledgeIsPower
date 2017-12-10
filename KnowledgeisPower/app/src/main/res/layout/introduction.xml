@@ -12,7 +12,7 @@
     android:layout_margin="10sp">
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:contentDescription="@string/firstPage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="?android:attr/homeAsUpIndicator"
@@ -38,8 +38,7 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content
-"
+        android:layout_height="wrap_content"
         android:text="@string/intro_text" />
     <!-- This adds gap -->
 
@@ -133,11 +132,12 @@
     <!-- This one makes the reader to go to the next page-->
 
     <CheckBox
-        android:id = "@+id/checkbox_understood"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/understood"
         android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+
         android:layout_marginTop="16dp"
         android:textSize="16sp"
         android:onClick="checkbox_understood"

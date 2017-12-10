@@ -2,13 +2,14 @@
 <resources>
     <string name="app_name">Bilgi Güçtür</string>
     <string name="intro_text_hello">Merhaba. BG(Bilgi Güçtür) aplikasyonu sizi selamlar!</string>
-    <string name="intro_text">Bu 10 tarih sorusundan oluşan bir test aplikasyonudur.Bu aplikasyon ile: </string>
-    <string name="language">Dil Seçenekleri</string>
+    <string name="intro_text">"Bu 5 tarih sorusundan oluşan bir test aplikasyonudur.Bu aplikasyon ile: "</string>
     <string name="understood">Metni anladım ve devam etmek için hazırım.</string>
     <string name="intro_text_prop">1- Tarih bilginizi ölçebilir</string>
     <string name="intro_end_note">Not: Bu aplikasyon Levent Alahan Tekinalp tarafından yapılmıştır. Sebebi Udacity öğretmenlerine elinden gelenin en iyisini yaptığını göstermek ve Google bursunun boşa gitmediğini kanıtlamaktır. :) </string>
     <string name="hintname">Adınızı Girin</string>
     <string name="email">e-mail@adresinizigirin.com</string>
+    <string name="emailCheck">E-posta Adresim</string>
+
     <string name="submit">BAŞLA</string>
     <string name="namesubmit">İsim: </string>
     <string name="emailsubmit">E-mail: </string>
@@ -72,4 +73,32 @@
     <string name="item3">3- Sonucunuzu kendinize gönderebilir</string>
     <string name="item4">4- Sonucunuzu arkadaşlarınızla paylaşbilir</string>
     <string name="item5">5- Sonucunuzu cihazınıza kaydedebilirsiniz</string>
+    <string name="yourAnswer">Cevabınız:</string>
+    <string name="send1">Sonucu Gönder</string>
+    <string name="Correct">Doğru :</string>
+    <string name="False">Yanlış :</string>
+    <string name="explain">AÇIKLAMA:</string>
+    <string name="durum">BOŞ</string>
+    <string name="explain1">greensleevesi kimin ne zaman yazdığı tartışma konusudur. bazı tarihçiler bunu kral 8.henrynin anne boleyn için yazdığını söylemektedir. ancak şarkının yapısna baktığımızda bu şarkının 8. henrynin ölümüne kadar ingilterede görülmemiş olan bir italyan stilinde yazıldığı görülmektedir. dönemin diğer meşhur balladları gibi greesleeves de bestecisi bilmeyen balladlar arasında sınıflandırılmıştır. bu arada hemen belirtelim 8. henry de müzikle uğraşmış ancak vasat bir besteci olarak kalmıştır. \n \n Kaynak: \nhttps://eksisozluk.com/greensleeves--64865?p=4</string>
+    <string name="explain2">Petrograd’a dönmeye çalışan Çar İkinci Nikolay yalnızca Pskov kentine kadar gelebildi. Duma temsilcileri ve askeri yöneticilerle görüştükten sonra 15 Mart günü tahtı bırakmak zorunda kaldı ve böylece 17’nci yüzyıldan bu yana Romanov hanedanı tarafından yönetilen Rusya İmparatorluğu sonlandı. \n \n Kaynak: \nhttp://www.bbc.com/turkce/resources/idt-sh/russian_revolution_turkish</string>
+    <string name="explain3">Çünkü Zheng He’nın gen havuzu çok geniş bir yelpazeye sahiptir. Bu yelpazenin başlangıç noktası Buhara’ya, varış noktası Çin’e dayanmaktadır. Genellikle tarihte başarılı olan birçok kişinin arkasında güçlü bir aile yapısı vardır. Zheng He da aile kökeni olarak güçlü bir soy ağacına sahiptir. Bu yüzden Müslüman Amiral Zheng He hem dini açıdan hem de aile tarihi olarak incelemeye değer bir konudur. \n \n Kaynak: \nhttp://dergipark.ulakbim.gov.tr/curesosc/article/view/5000179087</string>
+    <string name="explain4">Çinin uzaya araç göndermeye başladığı dönemde başarılı olan ilk aracında bulunan astronom Yang Liwei, uzaydan döndüğünde duvarı uzaydan ayırt edemediğini söylediğinde Çin halkı büyük bir hayal kırıklığı yaşamıştır. \n \n Kaynak: \nhttps://onedio.com/haber/insanlarin-cogunun-yanlis-bildigi-bir-gercek-cin-seddi-uzaydan-ciplak-gozle-gorunur-mu--698790</string>
+    <string name="explain5">1099 da yapılan Haçlı seferlerinin başarıyla sonuçlanmasıyla  ülkelerine geri dönen soyluların doğunun zenginliklerinden büyük bir abartıyla bahsetmişlerdir. Bunun üzerine  Papa 2. Paschalis’in tekrar Haçlı seferi çağrısı yapması üzerine kısa sürede üç büyük ordu oluşturulmuştur. Papa 2. Paschalis’in Avrupa Krallıkları, Kutsal Roma ve Cermen İmparatorluklarıyla yaşadığı anlaşmazlıklar nedeniyle bunlardan hiç destek alamamıştır. \n \n Kaynak: \nhttp://www.tarihiolaylar.com/tarihi-olaylar/hacli-seferleri-76</string>
+    <string name="emailSubject">Bilgi Güçtür Uygulaması Test Sonucu</string>
+    <string name="firstPage">Başa Dön</string>
+    <string name="flag1">Amerikan Bayrağı</string>
+    <string name="flag2">Türk Bayrağı</string>
+    <string name="upset">Şaşırmış adam</string>
+    <string name="alphaK">K harfi</string>
+    <string name="letterI">I harfi</string>
+    <string name="endP">P harfi</string>
+    <string name="date">Tarih ve Saat</string>
+    <string name="share">Sonucu Paylaş</string>
+    <string name="choose1">Neleri paylaşacağınızı seçin:</string>
+    <string name="OK">TAMAM</string>
+    <string name="chooseDude">Paylaşacağınız bilgilerden en az birini seçiniz.</string>
+    <string name="goBackMes">Dil seçimi ekranına döneceksiniz. Emin misiniz?</string>
+    <string name="scoreResult">Test Sonucum</string>
+    <string name="correctOnes">Doğru seçenekleri</string>
+
 </resources>

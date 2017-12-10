@@ -2,9 +2,9 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
-
+android:padding="20dp"
 
     >
 
@@ -34,58 +34,90 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="35sp"
-                android:shadowColor="#4d4343"
-                android:shadowDx="0"
-                android:shadowDy="0"
-                android:shadowRadius="70"
-                android:text="@string/language"
-                android:textAlignment="center"
-                android:textAllCaps="true"
-                android:textColor="#a103b3"
-                android:textSize="30sp"
-                android:textStyle="bold"
-                android:fontFamily="@font/medievalsharp"
-                />
+
 
             <LinearLayout
-                android:id="@+id/linear1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_gravity="bottom"
                 android:orientation="horizontal"
-
+                android:id="@+id/printable"
                 >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    >
 
-                <ImageButton
-                    android:id="@+id/lang_eng"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <ImageView
+                    android:contentDescription="@string/flag1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:background="@null"
                     android:cropToPadding="false"
-                    android:onClick="eng"
                     android:scaleType="centerInside"
                     app:srcCompat="@drawable/langeng" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="English"
+                        android:id="@+id/engBut"
+                        android:onClick="langbut1"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/nextPage"
+                        android:onClick="next"
+                        android:text="CONTINUE"
+                        android:visibility="invisible"
+                        />
 
+                </LinearLayout>
 
-                <ImageButton
-                    android:id="@+id/lang_turk"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:adjustViewBounds="true"
-                    android:background="@null"
-                    android:cropToPadding="false"
-                    android:onClick="turk"
-                    android:scaleType="centerInside"
-                    app:srcCompat="@drawable/langturk" />
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:contentDescription="@string/flag2"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:cropToPadding="false"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/langturk" />
+
+
+                    <RadioButton
+                        android:id="@+id/turkBut"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="langbut2"
+                        android:text="Türkçe" />
+
+                    <Button
+                        android:id="@+id/nextPage1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="next"
+                        android:text="DEVAM"
+                        android:visibility="invisible" />
+                </LinearLayout>
 
             </LinearLayout>
+
+
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -93,7 +125,7 @@
                 android:layout_gravity="center">
 
                 <ImageView
-                    android:id="@+id/bodyMan"
+                    android:contentDescription="@string/upset"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="bottom"
